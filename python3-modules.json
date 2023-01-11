@@ -49,8 +49,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/16/11/da8d395299ca166aa56d9436e26fe8440e5443471de16ccd9a1d06f5993a/Pillow-9.3.0.tar.gz",
-                    "sha256": "c935a22a557a560108d780f9a0fc426dd7459940dc54faa49d83249c8d3e760f",
+                    "url": "https://files.pythonhosted.org/packages/bc/07/830784e061fb94d67649f3e438ff63cfb902dec6d48ac75aeaaac7c7c30e/Pillow-9.4.0.tar.gz",
+                    "sha256": "a1c2d7780448eb93fbcc3789bf3916aa5720d942e37945f4056680317f1cd23e",
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "Pillow"
@@ -113,8 +113,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/16/11/da8d395299ca166aa56d9436e26fe8440e5443471de16ccd9a1d06f5993a/Pillow-9.3.0.tar.gz",
-                    "sha256": "c935a22a557a560108d780f9a0fc426dd7459940dc54faa49d83249c8d3e760f",
+                    "url": "https://files.pythonhosted.org/packages/bc/07/830784e061fb94d67649f3e438ff63cfb902dec6d48ac75aeaaac7c7c30e/Pillow-9.4.0.tar.gz",
+                    "sha256": "a1c2d7780448eb93fbcc3789bf3916aa5720d942e37945f4056680317f1cd23e",
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "Pillow"
@@ -140,8 +140,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/f9/15/8c3717b8d6ad4d369456be877c727c834e0a300c66a4c98445053f347ee0/pysol_cards-0.14.2.tar.gz",
-                    "sha256": "c08de857577bc3eec970c3add3c45b365316cc2844acd6083bb56ea31d40eaf0",
+                    "url": "https://files.pythonhosted.org/packages/4f/90/34c8f488a29dd76a945606bd915f019b37f56d8aead2b89df8f1b1f811a8/pysol_cards-0.14.3.tar.gz",
+                    "sha256": "b0fbfd38615bfc6fd755dab58505a9ae162d0da1866c25ca9141938b5823f061",
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "pysol_cards"
