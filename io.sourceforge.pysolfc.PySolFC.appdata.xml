@@ -76,7 +76,17 @@
     <control>keyboard</control>
   </supports>
   <releases>
-    <release version="2.20.0" date="2023-02-27"/>
+    <release version="2.20.0" date="2023-02-26">
+      <description>
+        <ul>
+          <li>Over 40 new games, bringing the total to 1,200!</li>
+          <li>Memory games can now use any type of cardset, including new Matching type cardsets.</li>
+          <li>New options in the Solitaire Wizard.</li>
+          <li>Additional documentation for a number of PySol's features.</li>
+          <li>Bugfixes and other enhancements.</li>
+        </ul>
+      </description>
+    </release>
     <release version="2.18.0" date="2022-10-09">
       <description>
         <ul>
