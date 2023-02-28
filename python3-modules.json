@@ -86,8 +86,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/8d/78/819c3665f1f3e0ac71aeacc9f63d6ece23138cbae6ce92ea9c8d06104f60/pygame-2.1.3.tar.gz",
-                    "sha256": "df29c4369df9231eebffac801fa7af021279d7e9dc4c1cae698cc4077c98d069",
+                    "url": "https://files.pythonhosted.org/packages/06/bf/008bcc00ebe22fcbea016f80566216c0b8e2cfea2bfdbf72664f676069b5/pygame-2.2.0.tar.gz",
+                    "sha256": "c64d06a97dd7fcdb8433c1c846757e9d253a36e49e579daeab090caeb6b2ef31",
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "pygame"
