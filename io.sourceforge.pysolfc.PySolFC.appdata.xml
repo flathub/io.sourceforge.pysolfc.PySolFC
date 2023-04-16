@@ -76,7 +76,15 @@
     <control>keyboard</control>
   </supports>
   <releases>
-    <release version="2.20.1" date="2023-04-16"/>
+    <release version="2.20.1" date="2023-04-16">
+      <description>
+        <ul>
+          <li>The release packages have been updated to use the latest version of Python, and all the dependent libraries.</li>
+          <li>New alternate release packages for Windows and Mac that include the full cardsets library (these are larger and may take longer to download/install).</li>
+          <li>Bugfixes and other enhancements.</li>
+        </ul>
+      </description>
+    </release>
     <release version="2.20.0" date="2023-02-26">
       <description>
         <ul>
