@@ -67,8 +67,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/57/e6/46537e3f2f580996563cb786e7ddaffa8052219343b046c403d0d48c6a10/pycotap-1.2.2-py3-none-any.whl",
-                    "sha256": "3dd54bf9f62efbf13f0c59872e8fad3d16c70bd878756a13e885bc5e8e319907",
+                    "url": "https://files.pythonhosted.org/packages/41/f7/b117cba8d898cb73db633d5a8eab7f42e173922df951038425bcbed4fc2e/pycotap-1.3.0-py3-none-any.whl",
+                    "sha256": "8ac6aa55a824f06bd26b6b8c255b663915f44c55f8c6fed579506b197a8909ab",
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "pycotap",
