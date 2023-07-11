@@ -76,7 +76,15 @@
     <control>keyboard</control>
   </supports>
   <releases>
-    <release version="2.21.0" date="2023-07-11"/>
+    <release version="2.21.0" date="2023-07-10" type="development"/>
+      <description>
+        <ul>
+          <li>Ten new games.</li>
+          <li>Compatibility with Pillow 10.0.</li>
+          <li>Several new display options.</li>
+          <li>Bugfixes and enhancements.</li>
+        </ul>
+      </description>
     <release version="2.20.1" date="2023-04-16">
       <description>
         <ul>
