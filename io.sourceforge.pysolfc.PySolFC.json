@@ -51,8 +51,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/shlomif/PySolFC-Cardsets",
-                    "commit": "9daeb7c84ce7afc85caa9beab98134867d47ec1f",
-                    "tag": "2.2",
+                    "commit": "f72bdc8876b5cff3a19a713b60a0bcdea959bfee",
+                    "tag": "3.0",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^([\\d.]+)$"
