@@ -6,10 +6,10 @@
   <id>io.sourceforge.pysolfc.PySolFC</id>
   <metadata_license>FSFAP</metadata_license>
   <project_license>GPL-3.0-or-later</project_license>
-  <name>PySolFC</name>
+  <name>PySol Fan Club Edition</name>
   <summary>Solitaire game compilation</summary>
   <description>
-    <p>A collection of more than 1000 Solitaire games, using various deck types
+    <p>A collection of more than 1200 Solitaire games, using various deck types
       including international standard, hex-a-deck, mahjongg, and hanafuda.</p>
   </description>
   <launchable type="desktop-id">pysol.desktop</launchable>
@@ -76,7 +76,18 @@
     <control>keyboard</control>
   </supports>
   <releases>
-    <release version="2.21.0" date="2023-07-10" type="development"/>
+    <release version="3.0.0" date="2024-03-31">
+      <description>
+        <ul>
+          <li>120 new games.</li>
+          <li>Support for several new types of games/decks, including tile puzzles, Ishido-type tile matching games, joker deck games, and more.</li>
+          <li>New game and cardset categories.</li>
+          <li>Ability to change the style of virtually any of the graphics in PySol.</li>
+          <li>Some UI/Quality of Life improvements.</li>
+          <li>Bugfixes.</li>
+        </ul>
+      </description>
+    <release version="2.21.0" date="2023-07-10">
       <description>
         <ul>
           <li>Ten new games.</li>
@@ -127,7 +138,7 @@
         </ul>
       </description>
     </release>
-    <release version="2.15.0" date="2022-03-12" type="development">
+    <release version="2.15.0" date="2022-03-12">
       <description>
         <p>
           This is a pretty sizable release, so this beta version is being
