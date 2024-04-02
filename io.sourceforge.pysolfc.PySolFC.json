@@ -51,8 +51,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/shlomif/PySolFC-Cardsets",
-                    "commit": "9daeb7c84ce7afc85caa9beab98134867d47ec1f",
-                    "tag": "2.2",
+                    "commit": "f72bdc8876b5cff3a19a713b60a0bcdea959bfee",
+                    "tag": "3.0",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^([\\d.]+)$"
@@ -96,8 +96,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/shlomif/PySolFC",
-                    "commit": "9237c30df46550126675587c3b823da23257860c",
-                    "tag": "pysolfc-2.21.0",
+                    "commit": "0162c927404a7508b182db2f41bfaa4988d8dd2e",
+                    "tag": "pysolfc-3.0.0",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^pysolfc-([\\d.]+)$",
