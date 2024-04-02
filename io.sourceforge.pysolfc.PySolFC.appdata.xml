@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Copyright 2022 Stephan Sokolow -->
-<!-- Copyright 2021-2022 Joe R. (@joeraz) -->
+<!-- Copyright 2021-2024 Joe R. (@joeraz) -->
 <!-- Copyright 2017-2021 Shlomi Fish -->
 <component type="desktop-application">
   <id>io.sourceforge.pysolfc.PySolFC</id>
   <metadata_license>FSFAP</metadata_license>
   <project_license>GPL-3.0-or-later</project_license>
-  <name>PySol Fan Club Edition</name>
+  <name>PySolFC</name>
   <summary>Solitaire game compilation</summary>
+  <developer>
+    <name>PySolFC</name>
+  </developer>
   <description>
     <p>A collection of more than 1200 Solitaire games, using various deck types
       including international standard, hex-a-deck, mahjongg, and hanafuda.</p>
@@ -67,8 +70,6 @@
     <control>pointing</control>
     <control>tablet</control>
     <control>touch</control>
-  </requires>
-  <requires>
     <!-- Meaning: Will never use Internet access even if offered -->
     <internet>offline-only</internet>
   </requires>
@@ -179,10 +180,12 @@
       </description>
     </release>
     <release version="2.14.1" date="2021-12-10">
-      <p>
-        This release fixes a number of bugs, including one that causes crashes
-        for some users when opening the select game/cardset/table tile window.
-      </p>
+      <description>
+        <p>
+          This release fixes a number of bugs, including one that causes crashes
+          for some users when opening the select game/cardset/table tile window.
+        </p>
+      </description>
     </release>
     <release version="2.14.0" date="2021-09-19">
       <description>
