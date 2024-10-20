@@ -56,10 +56,10 @@
          "        exit 1",
          "    fi",
          "}",
+         "(make_install solvers_extra_deps/Moo)",
          "(make_install solvers_extra_deps/Sub-Quote)",
          "(make_install solvers_extra_deps/Class-Method-Modifiers)",
          "(make_install solvers_extra_deps/Role-Tiny)",
-         "(make_install solvers_extra_deps/Moo)",
          "(make_install solvers_extra_deps/Path-Tiny)",
          "(make_install solvers_extra_deps/AppConfig)",
          "(make_install solvers_extra_deps/Template-Toolkit)"
