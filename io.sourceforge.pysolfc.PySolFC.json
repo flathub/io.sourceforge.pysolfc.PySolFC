@@ -25,6 +25,7 @@
     "rename-desktop-file": "pysol.desktop",
     "finish-args": [
         "--share=ipc",
+        "--socket=wayland",
         "--socket=fallback-x11",
         "--socket=pulseaudio",
         "--device=dri",
