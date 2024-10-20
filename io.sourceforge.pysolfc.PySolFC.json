@@ -1,7 +1,7 @@
 {
     "app-id": "io.sourceforge.pysolfc.PySolFC",
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "22.08",
+    "runtime-version": "23.08",
     "sdk": "org.freedesktop.Sdk",
     "command": "pysol",
     "cleanup": [
@@ -25,7 +25,7 @@
     "rename-desktop-file": "pysol.desktop",
     "finish-args": [
         "--share=ipc",
-        "--socket=x11",
+        "--socket=fallback-x11",
         "--socket=pulseaudio",
         "--device=dri",
         "--persist=.PySolFC"
