@@ -77,6 +77,16 @@
     <control>keyboard</control>
   </supports>
   <releases>
+    <release version="3.1.0" date="2024-10-19">
+      <description>
+        <ul>
+          <li>Ten new games.</li>
+          <li>Cleanup of duplicate images to reduce package size.</li>
+          <li>Some extra cardset/table tile filter options.</li>
+          <li>Many enhancements, bugfixes, etc.</li>
+        </ul>
+      </description>
+    </release>
     <release version="3.0.0" date="2024-03-31">
       <description>
         <ul>
