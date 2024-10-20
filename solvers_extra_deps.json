@@ -19,9 +19,9 @@
    },
    {
       "dest": "solvers_extra_deps/Moo",
-      "sha256": "fb5a2952649faed07373f220b78004a9c6aba387739133740c1770e9b1f4b108",
+      "sha256": "e3030b80bd554a66f6b3c27fd53b1b5909d12af05c4c11ece9a58f8d1e478928",
       "type": "archive",
-      "url": "https://cpan.metacpan.org/authors/id/H/HA/HAARG/Moo-2.005005.tar.gz"
+      "url": "https://cpan.metacpan.org/authors/id/H/HA/HAARG/Moo-2.005004.tar.gz"
    },
    {
       "dest": "solvers_extra_deps/Path-Tiny",
@@ -56,10 +56,10 @@
          "        exit 1",
          "    fi",
          "}",
-         "(make_install solvers_extra_deps/Moo)",
          "(make_install solvers_extra_deps/Sub-Quote)",
          "(make_install solvers_extra_deps/Class-Method-Modifiers)",
          "(make_install solvers_extra_deps/Role-Tiny)",
+         "(make_install solvers_extra_deps/Moo)",
          "(make_install solvers_extra_deps/Path-Tiny)",
          "(make_install solvers_extra_deps/AppConfig)",
          "(make_install solvers_extra_deps/Template-Toolkit)"
