@@ -38,7 +38,7 @@
             "buildsystem": "cmake",
             "build-options": {
                 "env": {
-                    "PERL5LIB": "/app/lib/perl5/site_perl/5.36.3"
+                    "PERL5LIB": "/app/lib/perl5/site_perl/5.40.0"
                 }
             },
             "config-opts": [
@@ -62,7 +62,7 @@
             "buildsystem": "cmake-ninja",
             "build-options": {
                 "env": {
-                    "PERL5LIB": "/app/lib/perl5/site_perl/5.36.3"
+                    "PERL5LIB": "/app/lib/perl5/site_perl/5.40.0"
                 }
             },
             "sources": [
