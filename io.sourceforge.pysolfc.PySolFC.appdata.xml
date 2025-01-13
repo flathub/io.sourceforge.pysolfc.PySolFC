@@ -77,6 +77,15 @@
     <control>keyboard</control>
   </supports>
   <releases>
+      <release version="3.2.0" date="2025-01-11">
+      <description>
+        <ul>
+          <li>New fullscreen mode, accessible by pressing F11.</li>
+          <li>Easy option to clear advanced search options.</li>
+          <li>Lots of bugfixes and enhancements.</li>
+        </ul>
+      </description>
+    </release>
     <release version="3.1.0" date="2024-10-19">
       <description>
         <ul>
