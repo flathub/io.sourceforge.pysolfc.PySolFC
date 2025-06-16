@@ -8,7 +8,7 @@
         {
             "type": "git",
             "url": "https://github.com/iwalton3/tkinter-standalone",
-            "commit": "4f5cfe3cdd1f58cd4e136fd66d4e5e27d21d820b"
+            "commit": "d9cb97c5bd4f814c73678366e0e48220776b6ad3"
         }
     ],
     "modules": [
