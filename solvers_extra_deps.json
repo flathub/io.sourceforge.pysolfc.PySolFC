@@ -1,45 +1,80 @@
 [
    {
       "dest": "solvers_extra_deps/Sub-Quote",
-      "sha256": "6e4e2af42388fa6d2609e0e82417de7cc6be47223f576592c656c73c7524d89d",
+      "sha256": "94bebd500af55762e83ea2f2bc594d87af828072370c7110c60c238a800d15b2",
       "type": "archive",
-      "url": "https://cpan.metacpan.org/authors/id/H/HA/HAARG/Sub-Quote-2.006006.tar.gz"
+      "url": "https://cpan.metacpan.org/authors/id/H/HA/HAARG/Sub-Quote-2.006008.tar.gz",
+      "x-checker-data": {
+	    "type": "anitya",
+	    "project-id": 12678,
+	    "url-template": "https://cpan.metacpan.org/authors/id/H/HA/HAARG/Sub-Quote-$version.tar.gz"
+	}
    },
    {
       "dest": "solvers_extra_deps/Class-Method-Modifiers",
-      "sha256": "ab5807f71018a842de6b7a4826d6c1f24b8d5b09fcce5005a3309cf6ea40fd63",
+      "sha256": "65cd85bfe475d066e9186f7a8cc636070985b30b0ebb1cde8681cf062c2e15fc",
       "type": "archive",
-      "url": "https://cpan.metacpan.org/authors/id/E/ET/ETHER/Class-Method-Modifiers-2.13.tar.gz"
+      "url": "https://cpan.metacpan.org/authors/id/E/ET/ETHER/Class-Method-Modifiers-2.15.tar.gz",
+      "x-checker-data": {
+	    "type": "anitya",
+	    "project-id": 6735,
+	    "url-template": "https://cpan.metacpan.org/authors/id/E/ET/ETHER/Class-Method-Modifiers-$version.tar.gz"
+	}
    },
    {
       "dest": "solvers_extra_deps/Role-Tiny",
       "sha256": "d7bdee9e138a4f83aa52d0a981625644bda87ff16642dfa845dcb44d9a242b45",
       "type": "archive",
-      "url": "https://cpan.metacpan.org/authors/id/H/HA/HAARG/Role-Tiny-2.002004.tar.gz"
+      "url": "https://cpan.metacpan.org/authors/id/H/HA/HAARG/Role-Tiny-2.002004.tar.gz",
+      "x-checker-data": {
+	    "type": "anitya",
+	    "project-id": 10665,
+	    "url-template": "https://cpan.metacpan.org/authors/id/H/HA/HAARG/Role-Tiny-$version.tar.gz"
+	}
    },
    {
       "dest": "solvers_extra_deps/Moo",
-      "sha256": "e3030b80bd554a66f6b3c27fd53b1b5909d12af05c4c11ece9a58f8d1e478928",
+      "sha256": "fb5a2952649faed07373f220b78004a9c6aba387739133740c1770e9b1f4b108",
       "type": "archive",
-      "url": "https://cpan.metacpan.org/authors/id/H/HA/HAARG/Moo-2.005004.tar.gz"
+      "url": "https://cpan.metacpan.org/authors/id/H/HA/HAARG/Moo-2.005005.tar.gz",
+      "x-checker-data": {
+	    "type": "anitya",
+	    "project-id": 3123,
+	    "url-template": "https://cpan.metacpan.org/authors/id/H/HA/HAARG/Moo-$version.tar.gz"
+	}
    },
    {
       "dest": "solvers_extra_deps/Path-Tiny",
-      "sha256": "fa083144781e46817ec39d21962bbbb0533c201f3baf031d2999a785a2a013fd",
+      "sha256": "818aed754b74f399e42c238bea738e20a52af89a6e3feb58bec9d0130eea4746",
       "type": "archive",
-      "url": "https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/Path-Tiny-0.124.tar.gz"
+      "url": "https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/Path-Tiny-0.148.tar.gz",
+      "x-checker-data": {
+	    "type": "anitya",
+	    "project-id": 11962,
+	    "url-template": "https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/Path-Tiny-$version.tar.gz"
+	}
    },
    {
       "dest": "solvers_extra_deps/AppConfig",
       "sha256": "1177027025ecb09ee64d9f9f255615c04db5e14f7536c344af632032eb887b0f",
       "type": "archive",
-      "url": "https://cpan.metacpan.org/authors/id/N/NE/NEILB/AppConfig-1.71.tar.gz"
+      "url": "https://cpan.metacpan.org/authors/id/N/NE/NEILB/AppConfig-1.71.tar.gz",
+      "x-checker-data": {
+	    "type": "anitya",
+	    "project-id": 5853,
+	    "url-template": "https://cpan.metacpan.org/authors/id/N/NE/NEILB/AppConfig-1.71.tar.gz"
+	}
    },
    {
       "dest": "solvers_extra_deps/Template-Toolkit",
-      "sha256": "d2a32dd6c21e4b37c6a93df8087ca9e880cfae613a3e5efaea307b0bdcaedb58",
+      "sha256": "d161c89dee9b213a7c55709ea782e2dd5923dbd1215b9576612889e6e74a2e06",
       "type": "archive",
-      "url": "https://cpan.metacpan.org/authors/id/A/AB/ABW/Template-Toolkit-3.101.tar.gz"
+      "url": "https://cpan.metacpan.org/authors/id/T/TO/TODDR/Template-Toolkit-3.102.tar.gz",
+      "x-checker-data": {
+	    "type": "anitya",
+	    "project-id": 11970,
+	    "url-template": "https://cpan.metacpan.org/authors/id/T/TO/TODDR/Template-Toolkit-$version.tar.gz"
+	}
    },
    {
       "commands": [

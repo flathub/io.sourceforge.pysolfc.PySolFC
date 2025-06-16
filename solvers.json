@@ -38,7 +38,7 @@
             "buildsystem": "cmake",
             "build-options": {
                 "env": {
-                    "PERL5LIB": "/app/lib/perl5/site_perl/5.40.0"
+                    "PERL5LIB": "/app/lib/perl5/site_perl/5.40.2"
                 }
             },
             "config-opts": [
@@ -62,14 +62,14 @@
             "buildsystem": "cmake-ninja",
             "build-options": {
                 "env": {
-                    "PERL5LIB": "/app/lib/perl5/site_perl/5.40.0"
+                    "PERL5LIB": "/app/lib/perl5/site_perl/5.40.2"
                 }
             },
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://fc-solve.shlomifish.org/downloads/fc-solve/black-hole-solver-1.10.1.tar.xz",
-                    "sha256": "36e1953a99e02e82489a3cb109fb590bcab307b4ddaec34cb0e67347668511e2",
+                    "url": "https://fc-solve.shlomifish.org/downloads/fc-solve/black-hole-solver-1.14.0.tar.xz",
+                    "sha256": "5c47bd093dbb160f4b090fd670ab7c12b4371d39b17b3bbd8c6c4a12975557c0",
                     "x-checker-data": {
                         "type": "html",
                         "url": "https://www.shlomifish.org/open-source/projects/black-hole-solitaire-solver/",
