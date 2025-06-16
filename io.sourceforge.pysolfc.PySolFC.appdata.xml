@@ -77,8 +77,15 @@
     <control>keyboard</control>
   </supports>
   <releases>
-      <release version="3.4.0" date="2025-06-16">
-         <description></description>
+      <release version="3.4.0" date="2025-06-14">
+         <description>
+           <ul>
+            <li>20+ new games and Mahjongg layouts.</li>
+            <li>Accessibility features including the ability to play by keyboard only, and support for some text to speech services.</li>
+            <li>Add auto-scaling support to the game and cardset previews.</li>
+            <li>Bugfixes, cleanup, enhancements, etc.</li>
+          </ul>
+        </description>
       </release>
       <release version="3.2.0" date="2025-01-11">
       <description>
