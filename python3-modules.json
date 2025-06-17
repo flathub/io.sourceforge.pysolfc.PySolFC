@@ -40,6 +40,15 @@
                 },
                 {
                     "type": "file",
+                    "url": "https://files.pythonhosted.org/packages/b5/51/56c8a348481b23bc1bf2a4c8c07457b7c1eac5450a746c1a3d11d80222e6/platform_utils-1.5.4-py2.py3-none-any.whl",
+                    "sha256": "c91ff5e03f62d9cfbdceddf73a7bfaea113de2384ae065edbd67f441bef0b26f",
+                    "x-checker-data": {
+                        "type": "pypi",
+                        "name": "platform_utils"
+                    }
+                },
+                {
+                    "type": "file",
                     "url": "https://files.pythonhosted.org/packages/02/8e/2bb81f845d8f3ecb07acd094544ecbf0c0e02f80364e35fdabaec96ee6dc/accessible_output2-0.17-py2.py3-none-any.whl",
                     "sha256": "bdcfc5f2c8ecb50b219fa7d547018dd0c99dfa4c56b506872c74f5dc941a3288",
                     "x-checker-data": {
