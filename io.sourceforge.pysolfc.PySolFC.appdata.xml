@@ -77,6 +77,14 @@
     <control>keyboard</control>
   </supports>
   <releases>
+      <release version="3.4.1" date="2025-08-23">
+        <description>
+          <ul>
+            <li>Preview graphics enhancements.</li>
+            <li>Many bugfixes and cleanup/enhancements.</li>
+          </ul>
+        </description>
+      </release>
       <release version="3.4.0" date="2025-06-14">
          <description>
            <ul>
