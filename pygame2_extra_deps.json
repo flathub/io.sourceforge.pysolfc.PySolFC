@@ -22,6 +22,10 @@
             "name": "SDL2_mixer",
             "buildsystem": "cmake-ninja",
             "builddir": true,
+            "config-opts": [
+                "-DSDL2MIXER_VENDORED=ON",
+                "-DSDL2MIXER_MIDI_FLUIDSYNTH=ON"
+            ],
             "sources": [
                 {
                     "type": "git",

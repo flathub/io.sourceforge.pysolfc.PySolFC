@@ -2,11 +2,13 @@
 
 Regarding `io.sourceforge.pysolfc.PySolFC.json`:
 
-1. `tkinter.json` is simply copied verbatim from
+1. `tkinter.json` is based on
    <https://github.com/iwalton3/tkinter-standalone> with `x-checker-data`
    sections added (I've opened
    [a bug](https://github.com/iwalton3/tkinter-standalone/issues/4) about them
-   being absent) because Tkinter is sort of in limbo in the Freedesktop runtime,
+   being absent) and `--no-build-isolation` on the pip install line so the
+   offline Flatpak build sandbox does not try to download setuptools from PyPI.
+   Tkinter is sort of in limbo in the Freedesktop runtime,
    with Python being too common a dependency to omit, but Tkinter being too rare
    a dependency for its size to be included by default, and both being part of
    the same source package.
@@ -15,7 +17,14 @@ Regarding `io.sourceforge.pysolfc.PySolFC.json`:
 3. `python3-modules.json` was produced by running the
    [flatpak-pip-generator](https://github.com/flatpak/flatpak-builder-tools/blob/master/pip/flatpak-pip-generator)
    script as
-   `python3 flatpak-pip-generator --checker-data attrs configobj pillow pycotap 'pygame>=2' ttkthemes pysol-cards`
+   `python3 flatpak-pip-generator --checker-data attrs configobj pillow pycotap ttkthemes pysol-cards`
+
+   The `python3-pygame-ce-build-deps` and `python3-pygame-ce` modules are
+   maintained manually because pygame-ce must be built from source with meson
+   options that disable unused subsystems (PySolFC only needs audio). Build
+   dependencies are installed in one offline pip step so wheels are available
+   via `--find-links`. Cython and Meson from the Freedesktop SDK are used
+   instead of vendoring older versions that pip cannot install over `/usr`.
 4. `solvers_extra_deps.json` was produced by running the
    [flatpak-cpan-generator](https://github.com/flatpak/flatpak-builder-tools/tree/master/cpan)
    script as

@@ -32,8 +32,7 @@
     ],
     "build-options": {
         "env": {
-            "PORTMIDI_INC_PORTTIME": "1",
-            "PYGAME_EXTRA_BASE": "/app"
+            "PORTMIDI_INC_PORTTIME": "1"
         }
     },
     "modules": [
@@ -96,8 +95,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/shlomif/PySolFC",
-                    "commit": "7808fdd268fda1cde9c4bd34617b3a030cfa970f",
-                    "tag": "pysolfc-3.4.1",
+                    "commit": "031abbf24392b5eca84c059681491029b7af7eb0",
+                    "tag": "pysolfc-3.6.0",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^pysolfc-([\\d.]+)$",
