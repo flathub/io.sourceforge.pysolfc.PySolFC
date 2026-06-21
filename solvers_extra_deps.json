@@ -97,7 +97,10 @@
          "(make_install solvers_extra_deps/Moo)",
          "(make_install solvers_extra_deps/Path-Tiny)",
          "(make_install solvers_extra_deps/AppConfig)",
-         "(make_install solvers_extra_deps/Template-Toolkit)"
+         "(make_install solvers_extra_deps/Template-Toolkit)",
+         "site_perl=\"${FLATPAK_DEST}/lib/perl5/site_perl\"",
+         "perl_version=\"$(perl -MConfig -e 'print $Config{version}')\"",
+         "ln -sfn \"${perl_version}\" \"${site_perl}/current\""
       ],
       "dest": "solvers_extra_deps",
       "dest-filename": "install.sh",

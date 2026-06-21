@@ -115,19 +115,76 @@
             ]
         },
         {
-            "name": "python3-pygame",
+            "name": "python3-pygame-ce-build-deps",
             "buildsystem": "simple",
             "build-commands": [
-                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"pygame>=2\" --no-build-isolation"
+                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} packaging pyproject-metadata meson \"meson-python<=0.18.0\" --no-build-isolation --ignore-installed"
             ],
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/49/cc/08bba60f00541f62aaa252ce0cfbd60aebd04616c0b9574f755b583e45ae/pygame-2.6.1.tar.gz",
-                    "sha256": "56fb02ead529cee00d415c3e007f75e0780c655909aaa8e8bf616ee09c9feb1f",
+                    "url": "https://files.pythonhosted.org/packages/df/b2/87e62e8c3e2f4b32e5fe99e0b86d576da1312593b39f47d8ceef365e95ed/packaging-26.2-py3-none-any.whl",
+                    "sha256": "5fc45236b9446107ff2415ce77c807cee2862cb6fac22b8a73826d0693b0980e",
                     "x-checker-data": {
                         "type": "pypi",
-                        "name": "pygame"
+                        "name": "packaging",
+                        "packagetype": "bdist_wheel"
+                    }
+                },
+                {
+                    "type": "file",
+                    "url": "https://files.pythonhosted.org/packages/1d/0b/da4851b1e2d9c40c9bd74c0abd94510a7d797da9ccde0a90e8953751ed4a/pyproject_metadata-0.11.0-py3-none-any.whl",
+                    "sha256": "85bbecca8694e2c00f63b492c96921d6c228454057c88e7c352b2077fcaa4096",
+                    "x-checker-data": {
+                        "type": "pypi",
+                        "name": "pyproject-metadata",
+                        "packagetype": "bdist_wheel"
+                    }
+                },
+                {
+                    "type": "file",
+                    "url": "https://files.pythonhosted.org/packages/32/4f/c398c6f06ece1c6c246e008d5dac3824c98f54d3eb3d8014f4910afd6d48/meson-1.10.0-py3-none-any.whl",
+                    "sha256": "4b27aafce281e652dcb437b28007457411245d975c48b5db3a797d3e93ae1585",
+                    "x-checker-data": {
+                        "type": "pypi",
+                        "name": "meson",
+                        "packagetype": "bdist_wheel"
+                    }
+                },
+                {
+                    "type": "file",
+                    "url": "https://files.pythonhosted.org/packages/28/58/66db620a8a7ccb32633de9f403fe49f1b63c68ca94e5c340ec5cceeb9821/meson_python-0.18.0-py3-none-any.whl",
+                    "sha256": "3b0fe051551cc238f5febb873247c0949cd60ded556efa130aa57021804868e2",
+                    "x-checker-data": {
+                        "type": "pypi",
+                        "name": "meson-python",
+                        "packagetype": "bdist_wheel",
+                        "versions": {
+                            "<=": "0.18.0"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "python3-pygame-ce",
+            "buildsystem": "simple",
+            "build-commands": [
+                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"pygame-ce>=2.5\" --no-build-isolation --ignore-installed --config-settings=setup-args=\"-Dimage=disabled\" --config-settings=setup-args=\"-Dfont=disabled\" --config-settings=setup-args=\"-Dmidi=disabled\" --config-settings=setup-args=\"-Dstripped=true\""
+            ],
+            "build-options": {
+                "env": {
+                    "PKG_CONFIG_PATH": "/app/lib/pkgconfig:/usr/lib/pkgconfig:/usr/share/pkgconfig"
+                }
+            },
+            "sources": [
+                {
+                    "type": "file",
+                    "url": "https://files.pythonhosted.org/packages/e9/0d/bb6a6fdf1b227c0bb9a44437a70962a3854bcc541533c261e5021a5ee691/pygame_ce-2.5.7.tar.gz",
+                    "sha256": "86beb797cd73c141299a29b56f7df2b0543fbdc81d428022458329ff694aaa51",
+                    "x-checker-data": {
+                        "type": "pypi",
+                        "name": "pygame-ce"
                     }
                 }
             ]

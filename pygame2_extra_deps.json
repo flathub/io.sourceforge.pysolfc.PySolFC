@@ -22,12 +22,16 @@
             "name": "SDL2_mixer",
             "buildsystem": "cmake-ninja",
             "builddir": true,
+            "config-opts": [
+                "-DSDL2MIXER_VENDORED=ON",
+                "-DSDL2MIXER_MIDI_FLUIDSYNTH=ON"
+            ],
             "sources": [
                 {
                     "type": "git",
                     "url": "https://github.com/libsdl-org/SDL_mixer",
-                    "commit": "6103316427a8479e5027e41ab9948bebfc1c3c19",
-                    "tag": "release-2.6.3",
+                    "commit": "171eb2d420d5643e4ee11514a06e04a41a463bbd",
+                    "tag": "release-2.8.1",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^release-([\\d.]+)$"
