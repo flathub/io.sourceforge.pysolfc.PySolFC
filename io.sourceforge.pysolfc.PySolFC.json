@@ -6,8 +6,8 @@
     "command": "pysol",
     "cleanup": [
         "/bin/sqlite3_analyzer",
-        "/bin/tclsh9.0",
-        "/bin/wish9.0",
+        "/bin/tclsh8.6",
+        "/bin/wish8.6",
         "/include",
         "*.a",
         "*.la",

@@ -2,6 +2,7 @@
     "name": "tkinter",
     "buildsystem": "simple",
     "build-commands": [
+        "sed -i 's/\"tcl9.0\", \"tcl9tk9.0\"/\"tcl8.6\", \"tk8.6\"/' pyproject.toml",
         "pip3 install --prefix=${FLATPAK_DEST} . --no-build-isolation"
     ],
     "sources": [
@@ -13,49 +14,41 @@
     ],
     "modules": [
         {
-            "name": "tcl9.0",
-            "buildsystem": "autotools",
-            "config-opts": [
-                "--disable-zipfs"
-            ],
+            "name": "tcl8.6",
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://prdownloads.sourceforge.net/tcl/tcl9.0.3-src.tar.gz",
-                    "sha256": "2537ba0c86112c8c953f7c09d33f134dd45c0fb3a71f2d7f7691fd301d2c33a6",
+                    "url": "https://sourceforge.net/projects/tcl/files/Tcl/8.6.16/tcl8.6.16-src.tar.gz",
+                    "sha256": "91cb8fa61771c63c262efb553059b7c7ad6757afa5857af6265e4b0bdc2a14a5",
                     "x-checker-data": {
                         "type": "html",
                         "url": "https://sourceforge.net/projects/tcl/rss",
-                        "pattern": "<link>(https://sourceforge.net/.+/tcl(9\\.0\\.[\\d\\.]*\\d)-src.tar.gz)/download"
+                        "pattern": "<link>(https://sourceforge.net/.+/tcl(8\\.6\\.[\\d\\.]*\\d)-src.tar.gz)/download"
                     }
                 }
             ],
             "subdir": "unix",
             "post-install": [
-                "chmod 755 ${FLATPAK_DEST}/lib/libtcl*.so"
+                "chmod +w ${FLATPAK_DEST}/lib/libtcl8.6.so"
             ]
         },
         {
-            "name": "tk9.0",
-            "buildsystem": "autotools",
-            "config-opts": [
-                "--disable-zipfs"
-            ],
+            "name": "tk8.6",
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://prdownloads.sourceforge.net/tcl/tk9.0.3-src.tar.gz",
-                    "sha256": "bf344efadb618babb7933f69275620f72454d1c8220130da93e3f7feb0efbf9b",
+                    "url": "https://sourceforge.net/projects/tcl/files/Tcl/8.6.16/tk8.6.16-src.tar.gz",
+                    "sha256": "be9f94d3575d4b3099d84bc3c10de8994df2d7aa405208173c709cc404a7e5fe",
                     "x-checker-data": {
                         "type": "html",
                         "url": "https://sourceforge.net/projects/tcl/rss",
-                        "pattern": "<link>(https://sourceforge.net/.+/tk(9\\.0\\.[\\d\\.]*\\d)-src.tar.gz)/download"
+                        "pattern": "<link>(https://sourceforge.net/.+/tk(8\\.6\\.[\\d\\.]*\\d)-src.tar.gz)/download"
                     }
                 }
             ],
             "subdir": "unix",
             "post-install": [
-                "chmod 755 ${FLATPAK_DEST}/lib/libtcl*tk*.so"
+                "chmod +w ${FLATPAK_DEST}/lib/libtk8.6.so"
             ]
         }
     ]
