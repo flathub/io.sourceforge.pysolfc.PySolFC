@@ -99,8 +99,16 @@
          "(make_install solvers_extra_deps/AppConfig)",
          "(make_install solvers_extra_deps/Template-Toolkit)",
          "site_perl=\"${FLATPAK_DEST}/lib/perl5/site_perl\"",
-         "perl_version=\"$(perl -MConfig -e 'print $Config{version}')\"",
-         "ln -sfn \"${perl_version}\" \"${site_perl}/current\""
+         "# Runtime 25.08 installs into site_perl/5.44. Config version is 5.44.0.",
+         "moo=\"$(find \"${site_perl}\" -name Moo.pm -print -quit)\"",
+         "if [ -z \"${moo}\" ]; then echo \"Moo.pm missing under ${site_perl}\"; find \"${FLATPAK_DEST}\" -name Moo.pm -print; exit 1; fi",
+         "perl_dir=\"$(dirname \"${moo}\")\"",
+         "if [ \"${perl_dir}\" = \"${site_perl}\" ]; then ln -sfn . \"${site_perl}/current\"; else ln -sfn \"${perl_dir#${site_perl}/}\" \"${site_perl}/current\"; fi",
+         "# Template Toolkit builds XS, so Template.pm lands in sitearch, not beside Moo.pm.",
+         "template=\"$(find \"${site_perl}\" -name Template.pm -print -quit)\"",
+         "if [ -z \"${template}\" ]; then echo \"Template.pm missing under ${site_perl}\"; find \"${FLATPAK_DEST}\" -name Template.pm -print; exit 1; fi",
+         "template_dir=\"$(dirname \"${template}\")\"",
+         "if [ \"${template_dir}\" = \"${site_perl}\" ]; then ln -sfn . \"${site_perl}/current-arch\"; else ln -sfn \"${template_dir#${site_perl}/}\" \"${site_perl}/current-arch\"; fi"
       ],
       "dest": "solvers_extra_deps",
       "dest-filename": "install.sh",
