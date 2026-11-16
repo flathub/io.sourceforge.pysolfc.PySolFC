@@ -77,6 +77,15 @@
     <control>keyboard</control>
   </supports>
   <releases>
+      <release version="3.7.0" date="2026-11-02">
+        <description>
+          <ul>
+            <li>Ten new games and variants.</li>
+            <li>New replay option to automatically replay a game you played in demo mode.</li>
+            <li>Bugfixes, enhancements, and cleanup.</li>
+          </ul>
+        </description>
+      </release>
       <release version="3.6.1" date="2026-07-19">
         <description>
           <ul>

@@ -96,8 +96,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/shlomif/PySolFC",
-                    "commit": "327ad87736c0376b2b451bf341e97a98f93d4d41",
-                    "tag": "pysolfc-3.6.1",
+                    "commit": "b05cb528c5552079fb775cba82cb919135afddf3",
+                    "tag": "pysolfc-3.7.0",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^pysolfc-([\\d.]+)$",
